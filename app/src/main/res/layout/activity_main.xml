@@ -12,6 +12,16 @@
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:hint="@string/edit_message"/>
+    <!--android:hint
+
+当文本框为空的时候，
+会默认显示这个字符串。
+对于字符串 "@string/edit_message" 的值所引用的资源应该定义在单独的文件里，
+而不是直接使用字符串。
+因为使用的值是存在的资源，
+所以不需要使用 + 号。当然，
+由于你现在还没有定义字符串，所以在添加 @string/edit_message 的时候会出现编译错误。
+在下一节的教程中你将学会如何定义字符串资源，到时候就不会报错了。-->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
