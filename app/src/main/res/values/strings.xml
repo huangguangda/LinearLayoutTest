@@ -3,5 +3,10 @@
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
     <string name="action_settings">Settings</string>
-    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
 </resources>
+<!-- Android 的图形用户界面由多个视图（View）
+和视图组（ViewGroup）构建而成。View 是通用的
+UI 窗体小组件，如：按钮（Button）、文本框（Text field）；
+而 ViewGroup 则是用来定义子视图布局的不可见的容器，
+如：网格部件（grid）、垂直列表部件（vertical list）。 -->
+<!-- -->
